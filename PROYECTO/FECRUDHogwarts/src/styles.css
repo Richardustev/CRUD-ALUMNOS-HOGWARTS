@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-color: ;
+}
+.title{
+    padding: 30px;
+    text-align: center;
+    color: white;
+    border-bottom: solid #000 2px;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}.title h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+}
+.container{
+    margin: 0 20%;
+}
